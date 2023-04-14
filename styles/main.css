@@ -1,6 +1,7 @@
 body {
 background-color: rgb(11, 40, 69);
 margin: auto 0;
+width: auto 0;
 }
 
 header {
@@ -8,21 +9,21 @@ header {
     height: 400px;
 }
 
-ul li {
+li {
     display: inline;
     font-size: 30px;
-    padding: 35px;
+    padding: 25px;
 }
 
-li a {
+a {
     text-decoration: none;
-    color: rgb(37, 177, 37);
+    color: rgb(209, 221, 209);
 }
 
 .header-info {
     text-align: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(209, 221, 209);
     padding-top: 50px;
 }
 
@@ -33,13 +34,50 @@ text-decoration: none;
 
 #projects-head {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    color: rgb(209, 221, 209);
 }
 
 #projects-head h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #projects-head p {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+main h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    margin: 50px;
+}
+
+.bio {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 85px;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
