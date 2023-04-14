@@ -1,0 +1,45 @@
+body {
+background-color: rgb(11, 40, 69);
+margin: auto 0;
+}
+
+header {
+    background-image: url('../images/background.png');
+    height: 400px;
+}
+
+ul li {
+    display: inline;
+    font-size: 30px;
+    padding: 35px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(37, 177, 37);
+}
+
+.header-info {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+
+.header-info h1 {
+font-size: 45px;
+text-decoration: none;
+}
+
+#projects-head {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#projects-head h1 {
+    font-size: 40px;
+}
+
+#projects-head p {
+    font-size: 30px;
+}
