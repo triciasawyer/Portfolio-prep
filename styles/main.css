@@ -49,13 +49,14 @@ text-decoration: none;
 main h1 {
     font-size: 35px;
     text-align: center;
+    margin-top: 80px;
 }
 
 .profile {
     display: flex;
     flex-direction: row;
     width: 400px;
-    margin-left: 85px;
+    margin-left: 130px;
     margin-top: 50px;
 }
 
@@ -63,17 +64,22 @@ main h1 {
     border-radius: 50%;
     width: 290px;
     height: 290px;
-    margin: 50px;
+    margin: 40px;
 }
 
 .bio {
-    border: 3px solid red;
-    display: flex;
-    flex-direction: row;
-    width: 540px;
-    height: 300px;
-    margin-right: 200px;
-    margin-top: 85px;
+    background-image: url('../images/background-bio.png');
+    width: 590px;
+    height: 280px;
+    margin-right: 140px;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bio p {
+    margin-bottom: 5px;
 }
 
 #about-section {
